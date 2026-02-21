@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Контакты</h1>
+            <p>Буду рад новым знакомствам</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="hobbies.html">Мои увлечения</a></li>
+            <li><a href="achievements.html">Томск</a></li>
+            <li><a href="contacts.html" class="active">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h2 class="section-title">Свяжитесь со мной</h2>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div>
+                    <strong>Адрес:</strong><br>
+                    Томск, Россия
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div>
+                    <strong>Email:</strong><br>
+                    <a href="mailto:your.email@example.com">tatanaparsikova07@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">📱</div>
+                <div>
+                    <strong>Телефон:</strong><br>
+                    +7 (XXX) XXX-XX-XX
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">💬</div>
+                <div>
+                    <strong>Социальные сети:</strong><br>
+                    Telegram: vissskkkasss
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3 style="margin-bottom: 20px; color: #667eea;">Напишите мне</h3>
+            <form>
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" name="name" placeholder="Введите ваше имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" name="email" placeholder="Введите ваш email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" placeholder="Напишите ваше сообщение..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Отправить сообщение</button>
+            </form>
+            <p style="margin-top: 20px; font-style: italic;">* Это демо-форма, сообщения пока не отправляются</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Виктория. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
